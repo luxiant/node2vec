@@ -16,7 +16,7 @@ To use this crate, add it to your `Cargo.toml` dependencies:
 
 ```
 [dependencies]
-node2vec = "1.0.0"
+node2vec = "1.0.1"
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ use rand::{SeedableRng, Rng};
 use rand::rngs::StdRng;
 use nalgebra::DMatrix;
 use petgraph::graph::Graph;
-use node2vec::embed;
+use node2vec::node2vec::embed;
 
 fn main() {
     let mut graph: Graph<usize, f32, petgraph::Directed> = Graph::new(); // The petgraph type must be defined like this, with the definition of edge direction.
