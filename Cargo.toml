@@ -2,6 +2,10 @@
 name = "node2vec"
 version = "1.0.0"
 edition = "2021"
+authors = ["Soltia Luxiant <luxiante@gmail.com>"]
+description = "node2vec in rust"
+license = "MIT"
+repository = "https://github.com/luxiant/node2vec"
 
 [dependencies]
 nalgebra = "0.32.6"
