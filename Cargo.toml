@@ -7,3 +7,6 @@ edition = "2021"
 nalgebra = "0.32.6"
 petgraph = "0.6.5"
 rand = "0.8.5"
+
+[package]
+repository = "https://github.com/luxiant/node2vec"
